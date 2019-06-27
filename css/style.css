@@ -1,0 +1,150 @@
+/* line 1, ../sass/style.scss */
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+  color: #000;
+  font-family: "Lato Regular";
+  font-size: 1.067em;
+}
+
+@font-face {
+  font-family: "BigJohn";
+  src: url("../fonts/BIG_JOHN.woff2") format("woff2"), url("../fonts/BIG_JOHN.woff") format("woff"), url("../fonts/BIG_JOHN.otf") format("opentype");
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Lato Regular";
+  src: url("../fonts/Lato-Regular.woff2") format("woff2"), url("../fonts/Lato-Regular.woff") format("woff"), url("../fonts/Lato-Regular.otf") format("opentype");
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Josefin Sans";
+  src: url("../fonts/JosefinSans-Regular.woff2") format("woff2"), url("../fonts/JosefinSans-Regular.woff") format("woff"), url("../fonts/JosefinSans-Regular.otf") format("opentype");
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'icomoon';
+  src: url("../fonts/icomoon.eot?hp60qg");
+  src: url("../fonts/icomoon.eot?hp60qg#iefix") format("embedded-opentype"), url("../fonts/icomoon.ttf?hp60qg") format("truetype"), url("../fonts/icomoon.woff?hp60qg") format("woff"), url("../fonts/icomoon.svg?hp60qg#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+/* line 42, ../sass/style.scss */
+::-webkit-scrollbar {
+  width: 0px;
+  background: transparent;
+}
+
+/* line 46, ../sass/style.scss */
+::-webkit-scrollbar-thumb {
+  background: #FF0000;
+}
+
+/* line 50, ../sass/style.scss */
+p {
+  margin: 0 0 15px 0;
+}
+
+/* line 54, ../sass/style.scss */
+.green {
+  background-color: #00a99d;
+}
+
+/* line 58, ../sass/style.scss */
+.blue {
+  background-color: #3886bc;
+}
+
+/* line 62, ../sass/style.scss */
+.orange {
+  background-color: #fbb03b;
+}
+
+/* line 66, ../sass/style.scss */
+section.container {
+  display: flex;
+}
+/* line 69, ../sass/style.scss */
+section.container .bloc .title {
+  padding: 30px;
+  text-align: center;
+  display: block;
+  position: relative;
+}
+/* line 74, ../sass/style.scss */
+section.container .bloc .title span {
+  font-family: "BigJohn";
+  color: #fff;
+  font-size: 2vw;
+}
+/* line 80, ../sass/style.scss */
+section.container .bloc .title.green:after {
+  color: #00a99d;
+}
+/* line 83, ../sass/style.scss */
+section.container .bloc .title.blue:after {
+  color: #3886bc;
+}
+/* line 86, ../sass/style.scss */
+section.container .bloc .title.orange:after {
+  color: #fbb03b;
+}
+/* line 89, ../sass/style.scss */
+section.container .bloc .title:after {
+  font-family: 'icomoon';
+  content: "\e900";
+  display: block;
+  position: absolute;
+  bottom: -16px;
+  left: calc((100vw / 6) - 14.42px);
+}
+/* line 97, ../sass/style.scss */
+section.container .bloc .content {
+  padding: 3vw 3vw;
+}
+/* line 100, ../sass/style.scss */
+section.container .bloc .content .scroller p {
+  text-align: justify;
+}
+/* line 104, ../sass/style.scss */
+section.container .bloc .content .AutoScroll {
+  position: relative;
+  max-height: 70vh;
+  overflow-y: scroll;
+}
+
+/* line 118, ../sass/style.scss */
+section.footer {
+  display: flex;
+  padding: 1vw 3vw;
+  color: #fff;
+  font-family: "Josefin Sans";
+  text-transform: uppercase;
+  position: absolute;
+  bottom: 0;
+  width: 94vW;
+  font-size: 2vw;
+}
+/* line 128, ../sass/style.scss */
+section.footer span {
+  display: block;
+}
+/* line 131, ../sass/style.scss */
+section.footer .john {
+  font-family: "BigJohn";
+}
+/* line 134, ../sass/style.scss */
+section.footer .last {
+  margin-left: 5.5vw;
+}
+/* line 137, ../sass/style.scss */
+section.footer hr {
+  width: 18%;
+  height: 0px;
+  color: #fff;
+  border: 1px solid #fff;
+}
